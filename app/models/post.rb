@@ -1,4 +1,4 @@
 class Post < ApplicationRecord
   belongs_to :user
-  has_manty :photos
+  has_many :photos, dependent: :destroy
 end
