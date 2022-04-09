@@ -15,3 +15,4 @@ Turbolinks.start()
 ActiveStorage.start()
 
 global.toastr = require("toastr")
+import upload_post_images from "./upload_post_images"
